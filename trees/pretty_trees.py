@@ -22,7 +22,7 @@ st.write('This app analyses trees in San Francisco using'
 
 #load trees dataset, add age column in days 
 
-trees_df = pd.read_csv('/app/test/trees/trees.csv') 
+trees_df = pd.read_csv('trees.csv') 
 
 trees_df['age'] = (pd.to_datetime('today') - 
 
