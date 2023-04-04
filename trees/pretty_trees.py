@@ -8,7 +8,7 @@ import datetime as dt
 
 import matplotlib.pyplot as plt 
 
- 
+import os
 
 st.title('SF Trees') 
 
@@ -18,7 +18,7 @@ st.write('This app analyses trees in San Francisco using'
 
          'histogram below is filtered by tree owner.') 
 
- 
+st.write(os.getcwd()) 
 
 #load trees dataset, add age column in days 
 
