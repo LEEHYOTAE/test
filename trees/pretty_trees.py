@@ -22,7 +22,7 @@ st.write(os.getcwd())
 
 #load trees dataset, add age column in days 
 
-trees_df = pd.read_csv('test/trees/trees.csv') 
+trees_df = pd.read_csv('trees/trees.csv') 
 
 trees_df['age'] = (pd.to_datetime('today') - 
 
